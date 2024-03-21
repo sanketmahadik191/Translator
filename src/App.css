@@ -1,0 +1,28 @@
+
+  .App {
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 20px #000;
+    height: 100%;
+  }
+
+
+  @media  screen and (max-width: 720px){
+
+    .App{
+        max-width: 400px;
+    }
+
+    textarea{
+        height: 200px;
+    }
+  .controls .row .icons i {
+  display: none;
+  }
+  }
+    
+
+  
